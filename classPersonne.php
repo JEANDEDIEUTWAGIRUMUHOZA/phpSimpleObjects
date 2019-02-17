@@ -22,7 +22,7 @@ class Personnage{
    public function mortOuVivant(){
       //this fait référence à l'objet , c'est à dire classe personnage qui englobe toutes ces fonctions
        
-      if($this->vie <= 0){
+      if($this->vie == 0){
       
            echo 'il est mort';
 
